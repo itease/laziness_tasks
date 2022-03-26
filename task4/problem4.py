@@ -8,7 +8,7 @@ import solve4
 # for example wordtarget = "apple" in text1="applejuice is made of apple",
 # then -> complete matches: (22,26); incomplete matches: (0,4)
 # you may assume that there is only one solution for the function 5
-# You can thange this code if you want functions to work with something else, maybe a list of vowels and consonants
+# You can change this code if you want functions to work with something else, maybe a list of vowels and consonants
 
 message1 = "big"
 message2 = "small"
@@ -18,6 +18,6 @@ wordtarget = "murder"
 
 print(solve4.longermessage(message1, message2))
 print(solve4.vowelsscontains(message1, message2))
-print(solve4.consonantscontains(message1, message2))
+print(solve4.consonantscontains(message1))
 print(solve4.findspaces(text1))
 print(solve4.findwords(text1, wordtarget))
